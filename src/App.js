@@ -20,13 +20,13 @@ const App = () => {
         <Route path='/' element={<Header/>}>
            <Route index element={<Home/>} />
          
-           <Route path='about' element={<About/>} />
+           {/* <Route path='about' element={<About/>} />
           
            <Route path='about/:id' element={<Dynamic/>} />
            <Route path='cart' element={<Cart/>} />
            <Route path='services' element={<Services/>} />
            <Route path='ref' element={<Ref/>} />
-           <Route path='*' element={<NotFound/>} />
+           <Route path='*' element={<NotFound/>} /> */}
         
         </Route>
     </Routes>
